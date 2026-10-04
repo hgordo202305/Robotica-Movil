@@ -7,15 +7,16 @@ Esta práctica consiste en programar una aspiradora capaz de desplazarse por una
 El robot usa el sensor laser para detectar los obstaculos, se usa el valor de la posición `90`, la cual esta relacionada con la posición justamente central del robot, por la parte de delante.
 Cuando el robot detecta un obstáculo a menos de `0.4 m` cambia su comportamiento para no chocarse.
 
-He dividido el comportamiento en tres estados:
+He dividido el comportamiento en cuatro estados:
 
 - **SPIRAL(0):** el robot avanza realizando una espiral.
 - **BACKWARDS(1):** el robot retrocede cuando se encuentra un obstaculo.
 - **TURN(2):** el robot realiza un giro aleatorio antes de volver a avanzar.
+- **FORWARD(3):** el robot avanza en línea recta durante un pequeño periodo de tiempo.
 
 El ciclo habitual de evasión es:
 
-**SPIRAL → OBSTÁCULO → BACKWARDS → TURN → SPIRAL**
+**SPIRAL → OBSTÁCULO → BACKWARDS → TURN → FORWARD → SPIRAL**
 
 ## Estados del robot
 ### SPIRAL
@@ -31,7 +32,11 @@ Cuando nos encontramos con uno de los obstaculos, entonces el robot retrocede du
 
 ### TURN
 En este estado el robot se queda quieto y gira sobre si mismo, el tiempo que dura el giro se genera de manera aleatoria entre `1 y 8 segundos`. Tambien se decide de manera aleatoria si el robot va a girar hacia un lado o hacia otro (1 y -1).
-Una vez termina el giro, el robot vuelve al estado inicial (SPIRAL) y comienza de nuevo el ciclo.
+Una vez termina el giro, el robot pasa al estado (FORWARD) para avanzar en línea recta.
+
+### FORWARD
+En este estado el robot avanza en línea recta con una velocidad de `0.6` durante aproximadamente `1 segundo`.
+Una vez termina el avance, el robot vuelve al estado inicial (SPIRAL) y comienza de nuevo el ciclo.
 
 ## Conclusión
 Con este algoritmo, el robot puede explorar el entorno de una manera sencilla y aleatoria, evitando los obstáculos que encuentra durante su recorrido.
@@ -42,8 +47,3 @@ Para poder hacer la practica he usado la documentacion de Unibotics: https://jde
 
 
 https://github.com/user-attachments/assets/69928a81-82a8-401f-ba94-5a8d5a87258f
-
-
-
-
-
