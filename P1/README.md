@@ -35,7 +35,7 @@ En este estado el robot se queda quieto y gira sobre si mismo, el tiempo que dur
 Una vez termina el giro, el robot pasa al estado (FORWARD) para avanzar en línea recta.
 
 ### FORWARD
-En este estado el robot avanza en línea recta con una velocidad de `0.6` durante aproximadamente `1 segundo`.
+En este estado el robot avanza en línea recta con una velocidad de `0.6` durante aproximadamente `3 segundos`.
 Una vez termina el avance, el robot vuelve al estado inicial (SPIRAL) y comienza de nuevo el ciclo.
 
 ## Conclusión
@@ -43,7 +43,9 @@ Con este algoritmo, el robot puede explorar el entorno de una manera sencilla y 
 
 Para poder hacer la practica he usado la documentacion de Unibotics: https://jderobot.github.io/RoboticsAcademy/exercises/MobileRobots/vacuum_cleaner
 
+## Video del Funcionamiento
 
 
+https://github.com/user-attachments/assets/c6ed307c-ee25-4530-9911-c6c7b1379850
 
-https://github.com/user-attachments/assets/69928a81-82a8-401f-ba94-5a8d5a87258f
+
