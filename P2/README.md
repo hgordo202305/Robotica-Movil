@@ -51,12 +51,12 @@ https://github.com/user-attachments/assets/a5edccff-1fac-4862-b5b3-07faa2f599b1
 
 
 ### Video en el circuito de Nurburing
-En este video vemos el coche terminar el circuito de  este lo completa al máximo, pero no con los parámetros originales ya que si no el coche no podia completarlo, para hacerlo se ha aumentado la Kp y disminuido la velocidad
+En este video vemos el coche terminar el circuito de Nurburing este lo completa al máximo, pero no con los parámetros originales ya que si no el coche no podia completarlo, para hacerlo se ha aumentado la Kp y disminuido la velocidad
 
 https://youtu.be/2WONi28UsYk
 
 ### Video en el circuito de Montmelo
-En este video podemos ver como el coche inicia el circuito de  , pero no llega a completarlo debido a una curva muy cerrada que no es capaz de rebasar, aunque no lo complete, podemos observar en el video la logica de giro en busca de la linea roja de nuevo
+En este video podemos ver como el coche inicia el circuito de Montmelo, pero no llega a completarlo debido a una curva muy cerrada que no es capaz de rebasar, aunque no lo complete, podemos observar en el video la logica de giro en busca de la linea roja de nuevo
 
 https://youtu.be/HVly3yHMJ3I
 
