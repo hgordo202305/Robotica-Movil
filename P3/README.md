@@ -1,3 +1,5 @@
+
+
 # Práctica 3 - Local navigation with VFF
 Esta práctica consiste en desarrollar un coche de F1 que es capaz de desplazarse de manera autónoma por un circuito, evitando otros coches que actúan como obstáculos y alcanzando una seri de puntos, para ello hemos 
 implementado un algoritmo de navegación local basado en el campo de fuerzas virtuales (VFF) combinando una fuerza de atracción hacia el objetivo con una fuerza de respulsión generada a partir de las lecturas del sensor laser.
@@ -85,7 +87,7 @@ Los ajustes realizados mejoran la estabilidad y el control de velocidad, aunque 
 Aun así, es una solución sencilla para la navegación reactiva sin necesidad de un mapa completo.
 
 ### Video del Funcionamiento
-
+https://youtu.be/jjQQzrMO-1o
 
 
 
